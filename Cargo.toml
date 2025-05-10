@@ -168,7 +168,7 @@ encoding_rs = { version = "0.8", optional = true }
 http-body = "1"
 http-body-util = "0.1"
 hyper = { version = "1.1", features = ["http1", "client"] }
-hyper-util = { version = "0.1.11", features = [
+hyper-util = { git = "https://github.com/hyperium/hyper-util", features = [
     "http1",
     "client",
     "client-legacy",
@@ -253,7 +253,7 @@ hyper = { version = "1.1.0", default-features = false, features = [
     "client",
     "server",
 ] }
-hyper-util = { version = "0.1.11", features = [
+hyper-util = { git = "https://github.com/hyperium/hyper-util", features = [
     "http1",
     "http2",
     "client",
